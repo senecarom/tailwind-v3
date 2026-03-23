@@ -1,0 +1,4 @@
+/* Tailwind'in 3 temel katmanını buraya ekliyoruz */
+@tailwind base;       /* Tarayıcı reset'leri ve temel stiller */
+@tailwind components; /* Bileşen sınıfları (isteğe bağlı özel sınıflar) */
+@tailwind utilities;  /* Tüm utility class'lar (p-4, flex, text-xl vs.) */
