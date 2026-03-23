@@ -38,7 +38,7 @@ export default function ProductCard() {
       <div className="
         flex flex-col md:flex-row
         max-w-2xl mx-auto
-        bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100
+        bg-white rounded-3xl shadow-lg overflow-hidden border border-slate-100
         group
       ">
 
@@ -98,7 +98,7 @@ export default function ProductCard() {
            * rounded-full                      → Hap şekli.
            * self-start                        → Flex içinde sol tarafa yaslan (tam genişlik almasın).
            */}
-          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full self-start">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-600 bg-accent-50 px-3 py-1 rounded-full self-start">
             ⌚ Saat & Aksesuar
           </span>
 
@@ -210,12 +210,12 @@ export default function ProductCard() {
              */}
             <button className="
               w-full mt-4 py-3
-              bg-indigo-600 text-white font-semibold rounded-xl
+              bg-accent-600 text-white font-semibold rounded-xl
               flex items-center justify-center gap-2
-              hover:bg-indigo-700
+              hover:bg-accent-700
               active:scale-[0.98]
               transition-all duration-200
-              focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+              focus:outline-none focus:ring-2 focus:ring-accent-600 focus:ring-offset-2
             ">
               <span>🛒</span>
               <span>Sepete Ekle</span>

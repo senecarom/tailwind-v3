@@ -42,7 +42,7 @@ export default function ProfileCard() {
          * bg-gradient-to-br from-violet-500 to-indigo-600
          *               → Sağ-alta doğru mor→indigo degrade arka plan.
          */}
-        <div className="relative h-32 bg-gradient-to-br from-violet-500 to-indigo-600">
+        <div className="relative h-32 bg-gradient-to-br from-brand-500 to-accent-600">
 
           {/*
            * ROZET (badge)
@@ -130,7 +130,7 @@ export default function ProfileCard() {
            * font-medium  → Orta kalınlık.
            * mt-0.5       → Üstten 2px boşluk.
            */}
-          <p className="text-sm text-violet-600 font-medium mt-0.5">
+          <p className="text-sm text-brand-600 font-medium mt-0.5">
             Senior Front-end Developer
           </p>
 
@@ -217,10 +217,10 @@ export default function ProfileCard() {
              * active:scale-95 → Tıklamada hafif küçülme (basma hissi).
              */}
             <button className="
-              flex-1 bg-violet-600 text-white text-sm font-semibold py-2.5 rounded-xl
+              flex-1 bg-brand-600 text-white text-sm font-semibold py-2.5 rounded-xl
               transition-colors duration-200
-              hover:bg-violet-700
-              focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2
+              hover:bg-brand-700
+              focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2
               active:scale-95
             ">
               Takip Et

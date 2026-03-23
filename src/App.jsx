@@ -22,7 +22,7 @@ export default function App() {
          * text-slate-800        → Koyu gri.
          * tracking-tight        → Harfler arası boşluk azaltılmış.
          */}
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-800 tracking-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold font-display text-slate-800 tracking-tight">
           Tailwind CSS v3
         </h1>
         {/*
@@ -85,7 +85,7 @@ export default function App() {
             { kategori: "Typography", ornekler: ["text-xl", "font-bold", "leading-relaxed", "tracking-tight", "truncate", "uppercase"] },
             { kategori: "Görünüm",    ornekler: ["rounded-xl", "shadow-lg", "border", "opacity-50", "overflow-hidden", "ring-2"] },
           ].map((grup) => (
-            <div key={grup.kategori} className="bg-white rounded-xl p-4 border border-slate-100 shadow-sm">
+            <div key={grup.kategori} className="bg-white rounded-3xl p-4 border border-slate-100 shadow-sm">
               <p className="text-xs font-bold text-indigo-600 uppercase mb-3">
                 {grup.kategori}
               </p>
